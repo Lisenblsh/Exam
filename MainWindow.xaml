@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
-        <Label Content="Номер подшипника" Margin="0,0,666,394"/>
-        <TextBlock Name="tb_count" Text="" Margin="10,25,581,368"/>
-        <Label Name="otvet" Margin="0,85,666,307"/>
-        <Button Content="Расчитать" Margin="10,51,571,343" Click="Button_Click"/>
+        <Label Content="Номер подшипника" Margin="10,0,571,394" Height="25" VerticalAlignment="Bottom"/>
+        <TextBox Name="tb_count" Text="" Margin="10,0,581,368" Height="26" VerticalAlignment="Bottom"/>
+        <Label Name="otvet" Margin="10,0,486,281" Height="57" VerticalAlignment="Bottom"/>
+        <Button Content="Расчитать" Margin="10,0,571,343" Click="Button_Click" Height="25" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
